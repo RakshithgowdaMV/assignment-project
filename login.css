@@ -1,0 +1,69 @@
+.logindiv{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    height: 400px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background: transparent;
+    background: linear-gradient(rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%);
+}
+.loginheading{
+    position: absolute;
+    left: 100px;
+    color: white;
+}
+.user{
+    text-decoration: none;
+    background-color: transparent;
+    height: 40px;
+    width: 190px;
+    padding: 2px 25px 0px 0px;
+    border-radius: 10px;
+    border-bottom:1px red;
+    color: white;
+    position: relative;
+    left: 40px;
+    top: 100px;
+}
+.pass{
+    text-decoration: none;
+    background-color: transparent;
+    height: 40px;
+    width: 190px;
+    padding: 2px 25px 0px 0px;
+    border-radius: 10px;
+    border-bottom: red;
+    color: white;
+    position: relative;
+    left: 40px;
+    top: 120px;
+}
+.logbtn{
+    text-decoration: none;
+    background-color: red;
+    height: 40px;
+    width: 190px;
+    padding: 2px 25px 0px 0px;
+    border-radius: 10px;
+    border-bottom:1px red;
+    color: white;
+    position: relative;
+    left: 55px;
+    top: 160px;
+}
+.logbtn:hover{
+    cursor: pointer;
+    transition-delay: .2s;
+    background-color:gray;
+    color: black;
+}
+input{
+    outline: none;
+    font-size: 14px;
+    color: white;
+}
+::-webkit-input-placeholder{
+    color: white;
+}

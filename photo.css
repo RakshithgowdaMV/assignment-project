@@ -1,0 +1,80 @@
+ button{
+    /* text-decoration: none; */
+     padding: 2px 30px;
+    background-color: yellowgreen;
+    border-radius: 10px; 
+ }
+.dropdown-menu{
+    
+    color: white;
+}
+h1{
+    margin-left: 43%;
+    /* color: blueviolet; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.col1{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color: white;
+} 
+.image{
+    height: 300px; 
+}
+ .bg{
+    background-image: none;
+} 
+ img{
+     display:inline-block;  
+    height: 200px;
+    width: 300px;
+    margin-top: 50px; 
+    padding-top: 100PX;
+    margin-left:10px ;
+    
+}
+
+/* .pic{
+    display: flex; 
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+} */
+footer{
+    background-color: black;
+     height: 220px; 
+    color: white;
+    bottom: 0;
+    margin-bottom: 0;
+    /* margin:0;
+    z-index: 99 !important;
+    margin-top: 0px;
+    position: fixed;
+    font-size: 0.8em !important;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    padding: 3px; */
+    
+}
+h3{
+    margin-left: 25%;
+}
+body{
+    background-color: rgb(79, 133, 133);
+    position: relative;
+}
+.f1{
+    /* display: flex; */
+    height: 100px;
+    width: 1000px;
+}
+.f2{
+    height: 100px;
+    width: 150px;
+}.f{
+    display: flex;
+}
